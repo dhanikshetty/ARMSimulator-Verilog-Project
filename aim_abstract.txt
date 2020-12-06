@@ -1,0 +1,10 @@
+AIM:
+Design and implement a 4 bit register with four d flip flops and four 4:1 multiplexers with mode selection input s0 and s1.The register operates according to the select lines: 
+			if s1s0=00 then no change
+			if s1s0=01 then complement output
+			if s1s0=10 then shift right
+			if s1s0=11 then shift left 
+
+
+ABSTRACT:
+The input for the register is passed in the testbench and according to the select lines the sifting operations are performed.Intially the inputs are passed to 2:1 muxes and later to the d flip flop with reset and load.The output from these d flip flops are inserted to process module where the left shift,right shift and complement is performed.For the left and right operations a total of sixteen 2:1 muxes are used(8 for left, 8 for right).The complement is implemented using not gates.The 4 bit outputs from these operations are passed to for 4:1 mux whose output will be based on the mode selection inputs.    

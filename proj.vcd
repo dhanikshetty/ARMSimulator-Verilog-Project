@@ -1,0 +1,83 @@
+$date
+	Thu Nov 28 09:04:32 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 4 ! out [3:0] $end
+$var reg 2 " ch [1:0] $end
+$var reg 1 # clk $end
+$var reg 4 $ in [3:0] $end
+$var reg 1 % load $end
+$var reg 1 & reset $end
+$var reg 1 ' rg $end
+$var reg 2 ( sh [1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 (
+0'
+0&
+1%
+b10 $
+1#
+b0 "
+bx !
+$end
+#10
+0#
+#20
+b10 !
+1#
+#30
+0#
+#40
+b1101 !
+1#
+1'
+b1 (
+b1 "
+bx $
+#50
+0#
+#60
+b110 !
+1#
+b10 "
+#70
+0#
+#80
+b1100 !
+1#
+b11 "
+#90
+0#
+#100
+b1000 !
+1#
+#110
+0#
+#120
+b0 !
+1#
+#130
+0#
+#140
+1#
+#150
+0#
+#160
+1#
+#170
+0#
+#180
+1#
+#190
+0#
+#200
+1#
